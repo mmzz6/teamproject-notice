@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스쿱스</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/sub_member_style.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/media.css">
+
+    <!-- 파비콘 -->
+    <link rel="icon" href="./img/favicon.png">
+
+    <!-- 폰트 -->
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
+    <link href="https://fonts.cdnfonts.com/css/keystone-2" rel="stylesheet" />
+    
+</head>
+<body>
+    <div id="wrap">
+
+        <div id="blink" class="scr1"></div>
+
+        <!-- 플로팅 메뉴 -->
+        <div class="ham">
+            <input type="checkbox" id="menuicon">
+            <label for="menuicon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <div class="sidebar">
+                <ul id="menu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../00_Menu_KDK/index.html">Menu</a></li>
+                    <li><a href="../00_Notice_PJH/sub_member.html">Notice</a></li>
+                    <li><a href="../00_Story_KYE/story.html">Story</a></li>
+                    <li><a href="../00_Member_HMS/member.html">Member</a></li>
+                </ul>
+            </div>
+        </div><!--.ham-->
+        <div class="nav_item">
+            <ul>
+                <li class="up"><a href="javascript:;"><i class="fa-solid fa-chevron-up"></i></a></li>
+                <li class="down"><a href="javascript:;"><i class="fa-solid fa-chevron-down"></i></a></li>
+            </ul>
+        </div><!--.nav_item-->
+
+        <!-- fixnav, 픽스네비 -->
+        <div class="fixnav">
+            <div class="fix_logo"><a href="../index.html">Scoops</a></div>
+            <ul class="clearfix">
+                <li><a href="../00_Menu_KDK/index.html">Menu</a></li>
+                <li><a href="../00_Notice_PJH/sub_member.html">Notice</a></li>
+                <li><a href="../00_Story_KYE/story.html">Story</a></li>
+                <li><a href="../00_Member_HMS/member.html">Member</a></li>
+            </ul>
+            <!-- 검색창 -->
+            <div class="search">
+                <input type="text" placeholder="Search">
+                <button class="sb"><a href="javascript:;"><i class="fa-solid fa-magnifying-glass"></i></a></button>
+            </div>
+            <a href="https://open.kakao.com/o/sXKRcZvg" target="_blank"><i
+                    class="kakaotalk fa-solid fa-comment"></i></a>
+            <a href="javascript:;"><i class="mypage fa-solid fa-user"></i></a>
+        </div><!--.fixnav-->
+        
+        <!-- hole -->
+        <div id="pic">
+            <div class="container">
+                <div class="pic"></div>
+            </div>
+        </div><!--#pic-->
+
+        <!-- contents -->
+        <div id="contents">
+            <div class="container">
+                <div class="notice">
+                    <h2>Notice</h2>
+                    <p>스쿱스의 다양한 소식을 소개합니다.</p>
+                    <article>
+                        <section class=" list1"><a href="#">전체보기</a></section>
+                        <section class="tab list2"><a href="#">공지사항</a></section>
+                        <section class="list3"><a href="#">이벤트</a></section>
+                    </article>
+                    <h3 class="title clearfix ">
+                        <li>
+                            <p>번호</p><p>분류</p><em>제목</em><span>등록일</span><p>조회</p>
+                        </li>
+                    </h3>
+                    <div class="page sl1">
+                    <ul class="next clearfix">
+                        <li class="noti">
+                            <p>634</p>
+                            <p>공지사항</p>
+                            <em><a href="#">홈페이지 이용약관 개정 안내</a></em>
+                            <span>20240701</span>
+                            <p>123</p>
+                        </li>
+                    </ul>
+                    <ul class="next clearfix">
+                        <li class="noti">
+                            <p>633</p>
+                            <p>공지사항</p>
+                            <em><a href="#">영상정보처리기기 운영방침 / 개인정보처리방침 이용약관 개정 안내</a></em>
+                            <span>20240701</span>
+                            <p>561</p>
+                        </li>
+                    </ul>
+                    <ul class="next clearfix">
+                        <li class="noti">
+                            <p>632</p>
+                            <p>공지사항</p>
+                            <em><a href="#">시스템 개선 및 서비스 점검 안내</a></em>
+                            <span>20240701</span>
+                            <p>231</p>
+                        </li>
+                    </ul>
+                    <ul class="next clearfix">
+                        <li class="event e1">
+                            <p>631</p>
+                            <p>이벤트</p>
+                            <em><a href="#">2024 VERYBERRY SUMMER 이벤트 증정품 안내</a></em>
+                            <span>20240701</span>
+                            <p>999+</p>
+                        </li>
+                    </ul>
+                    <ul class="next clearfix">
+                        <li class="event e1">
+                            <p>630</p>
+                            <p>이벤트</p>
+                            <em><a href="#">6월 30일, 두바이 초코 아이스크림 출시</a></em>
+                            <span>20240630</span>
+                            <p>999+</p>
+                        </li>
+                    </ul>
+                    <ul class="next clearfix">
+                        <li class="event e1">
+                            <p>629</p>
+                            <p>이벤트</p>
+                            <em><a href="#">매주 금요일, 특정 메뉴 13% 할인</a></em>
+                            <span>20240607</span>
+                            <p>999+</p>
+                        </li>
+                    </ul>
+                    <ul class="next clearfix">
+                        <li class="event e1">
+                            <p>628</p>
+                            <p>이벤트</p>
+                            <em><a href="#">리뷰 작성 이벤트 : 베스트 리뷰 선정 시 상품권 증정</a></em>
+                            <span>20240603</span>
+                            <p>999+</p>
+                        </li>
+                    </ul>
+                    <ul class="next clearfix">
+                        <li class="noti ">
+                            <p>627</p>
+                            <p>공지사항</p>
+                            <em><a href="#">스쿱스 리워드 회원 웰컴 등급 혜택 조정 안내</a></em>
+                            <span>20240603</span>
+                            <p>999+</p>
+                        </li>
+                    </ul>
+                    <ul class="next clearfix">
+                        <li class="noti">
+                            <p>626</p>
+                            <p>공지사항</p>
+                            <em><a href="#">애플페이 결제 서비스 일시 이용 중지 안내</a></em>
+                            <span>20240531</span>
+                            <p>999+</p>
+                        </li>
+                    </ul>
+                    <ul class="next clearfix">
+                        <li class="noti">
+                            <p>625</p>
+                            <p>공지사항</p>
+                            <em><a href="#">스쿱스 모바일 선물이 새로워집니다!</a></em>
+                            <span>20240510</span>
+                            <p>999+</p>
+                        </li>
+                    </ul>
+                    <ul class="next clearfix">
+                        <li class="event e1">
+                            <p>624</p>
+                            <p>이벤트</p>
+                            <em><a href="#">스쿱스, 군인•경찰•소방관 위한 감사 프로모션 진행</a></em>
+                            <span>20240501</span>
+                            <p>999+</p>
+                        </li>
+                    </ul>
+                    <ul class="next clearfix">
+                        <li class="event e1">
+                            <p>622</p>
+                            <p>이벤트</p>
+                            <em><a href="#">가정의 달 맞이, 가족 세트 메뉴 10% 할인!</a></em>
+                            <span>20240501</span>
+                            <p>999+</p>
+                        </li>
+                    </ul>
+                    </div>
+                    <div class="sl2">
+                    <ul class="next clearfix">
+                        <li class="event e1">
+                            <p>621</p>
+                            <p>이벤트</p>
+                            <em><a href="#">어린이날 특별 이벤트/모든 어린이고객에게 무료아스크림 제공</a></em>
+                            <span>20240501</span>
+                            <p>999+</p>
+                        </li>
+                    </ul>
+                    <ul class="next clearfix">
+                        <li class="event e1">
+                            <p>620</p>
+                            <p>이벤트</p>
+                            <em><a href="#">신메뉴 출시 기념, 무료 시식회 개최</a></em>
+                            <span>2024401</span>
+                            <p>999+</p>
+                        </li>
+                    </ul>
+                    <ul class="next clearfix">
+                        <li class="noti">
+                            <p>619</p>
+                            <p>공지사항</p>
+                            <em><a href="#">신제품 출시/ 달콤한 체리와 초코칩의 환상적인 조합! 신제품 '체리 초코칩'을 맛보세요</a></em>
+                            <span>20240315</span>
+                            <p>999+</p>
+                        </li>
+                    </ul>
+                    <ul class="next clearfix">
+                        <li class="event e1">
+                            <p>618</p>
+                            <p>이벤트</p>
+                            <em><a href="#">특별 프로모션/밸런타인데이를 맞아 커플 고객에게 1+1 혜택을 드립니다. 사랑을 전하세요!</a></em>
+                            <span>20240210</span>
+                            <p>999+</p>
+                        </li>
+                    </ul>
+                    <ul class="next clearfix">
+                        <li class="event e1">
+                            <p>617</p>
+                            <p>이벤트</p>
+                            <em><a href="#">인스타그램 팔로우 이벤트 : 추첨을 통해 무료 아이스크림 쿠폰 증정</a></em>
+                            <span>20240201</span>
+                            <p>999+</p>
+                        </li>
+                    </ul>
+                    <ul class="next clearfix">
+                        <li class="noti">
+                            <p>616</p>
+                            <p>공지사항</p>
+                            <em><a href="#">스쿱스 전 지점 리뉴얼 오픈/ 고객 여러분의 편의를 위해 전 지점을 리뉴얼 오픈하였습니다. 새로운 스쿱스를 만나보세요</a></em>
+                            <span>20240101</span>
+                            <p>999+</p>
+                        </li>
+                    </ul>
+                    <ul class="next clearfix">
+                        <li class="event e1">
+                            <p>615</p>
+                            <p>이벤트</p>
+                            <em><a href="#">누적 방문 고객 감사 이벤트 : 10회 방문 시 무료 아이스크림 제공</a></em>
+                            <span>20240201</span>
+                            <p>999+</p>
+                        </li>
+                    </ul>
+                    <ul class="next clearfix">
+                        <li class="noti">
+                            <p>614</p>
+                            <p>공지사항</p>
+                            <em><a href="#">연말연시 영업 시간 안내/ 연말연시를 맞아 영업 시간이 조정됩니다.</a></em>
+                            <span>20240101</span>
+                            <p>999+</p>
+                        </li>
+                    </ul>
+                    <ul class="next clearfix">
+                        <li class="event e1">
+                            <p>612</p>
+                            <p>이벤트</p>
+                            <em><a href="#">- 크리스마스 한정 메뉴 출시/  크리스마스를 기념하여 페퍼민트와 진저브레드 맛 아이스크림을 한정 판매합니다.</a></em>
+                            <span>20231211</span>
+                            <p>999+</p>
+                        </li>
+                    </ul>
+                    <ul class="next clearfix">
+                        <li class="event e2">
+                            <p>611</p>
+                            <p>이벤트</p>
+                            <em><a href="#">스쿱스앱에서 5% 적립 놓치지 마세요!</a></em>
+                            <span>20231201</span>
+                            <p>999+</p>
+                        </li>
+                    </ul>
+                    <ul class="next clearfix">
+                        <li class="event e2">
+                            <p>610</p>
+                            <p>이벤트</p>
+                            <em><a href="#">[스쿱스멤버십] '더 강력해진 꽝없는 이벤트' 참여하고 쿠폰 받으세요.</a></em>
+                            <span>20231101</span>
+                            <p>999+</p>
+                        </li>
+                    </ul>
+                    <ul class="next clearfix">
+                        <li class="noti">
+                            <p>609</p>
+                            <p>공지사항</p>
+                            <em><a href="#">스쿱스 앱이 출시되었습니다.</a></em>
+                            <span>20231001</span>
+                            <p>999+</p>
+                        </li>
+                    </ul>
+                    </div>
+                    <div class="page_btn">
+                        (
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li> 
+                        )
+                    </div>
+                    <div class="page_btn2">
+                        (
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li> 
+                        )
+                    </div>
+                </div>
+            </div>
+        </div><!--#contents-->
+
+        <!-- footer -->
+        <div id="footer" class="scr1">
+            <div class="container">
+                <div class="footer">
+                    <div class="f_text clearfix">
+                        <ul>
+                            <li><a href="javascript:;">정보</a>
+                                <ul>
+                                    <li>사업자 등록번호 : 777-77-7777</li>
+                                    <li>서울특별시 강서구 화곡로149 3층~5층
+                                        <br>(화곡동.심당빌딩)
+                                    </li>
+                                    <li>Scoops0318@gmali.com</li>
+                                    <li>김도경, 공영은, 박진형, 허민서</li>
+                                </ul>
+                            </li>
+                            <li><a href="javascript:;">고객센터</a>
+                                <ul>
+                                    <li>070-1234-5678</li>
+                                    <li>평일: 09:00 ~ 18:00</li>
+                                    <li>주말: 12:00 ~ 14:00</li>
+                                    <li>공휴일은 고객센터를 운영하지 않습니다.</li>
+                                </ul>
+                            </li>
+                            <li><a href="javascript:;">STORE</a>
+                                <ul>
+                                    <li><a href="javascript">매장찾기</a></li>
+                                    <li><a href="javascript">배달주문</a></li>
+                                    <li><a href="javascript">단체주문</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="javascript:;">SNS</a>
+                                <ul>
+                                    <li><a href="javascript">YouTube</a></li>
+                                    <li><a href="javascript">Instagram</a></li>
+                                    <li><a href="javascript">KakaoTalk</a></li>
+                                    <li><a href="javascript">Blog</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="f_copy">
+                        <a href="javascript:;">개인정보 보호정책</a>
+                        <a href="javascript:;"> | </a>
+                        <a href="javascript:;">서비스 이용약관</a>
+                        <a href="javascript:;"> | </a>
+                        <a href="javascript:;">쿠키 정책</a>
+                        <a href="javascript:;"> | </a>
+                        <a href="javascript:;">면책 조항</a>
+                        <a href="javascript:;"> | </a>
+                        <a href="javascript:;">저작권 정보</a>
+                        <a href="javascript:;"> | </a>
+                        <a href="javascript:;">접근성 설명서</a>
+                        <a href="javascript:;"> | </a>
+                        <a href="javascript:;">GDPR 준수</a>
+                        <a href="javascript:;"> | </a>
+                        <a href="javascript:;">CCPA 준수</a>
+                        <a href="javascript:;"> | </a>
+                        <a href="javascript:;">사용자 동의</a>
+                        <a href="javascript:;"> | </a>
+                        <a href="javascript:;">최종 사용자 사용권 계약</a>
+                        <a href="javascript:;"> | </a>
+                        <a href="javascript:;">환불 정책</a>
+                        <span>© 2024 Scoops. All rights reserved.</span>
+                    </div>
+                    <div class="f_logo">
+                        <ul class="first">
+                            <li><a href="javascript:;">채용문의</a></li>
+                            <li><a href="javascript:;">ㅣ</a></li>
+                            <li><a href="javascript:;">점포개설문의</a></li>
+                        </ul>
+                        <img src="./img/f_logo.png" alt="푸터로고이미지" class="second">
+                        <div class="family">
+                            <select onchange="window.open(value,'_blank')">
+                                <option value="#" selected="selected">family site</option>
+                                <option value="http://daiiny.dothome.co.kr/port1/">Young Flower_공영은</option>
+                                <option value="http://ddkk78.dothome.co.kr/port1/">돈벌자_박진형</option>
+                                <option value="http://mmzz6.dothome.co.kr/port1/">지비랑_허민서</option>
+                                <option value="http://mieum0915.dothome.co.kr/port1/">GoToMoment_김도경</option>
+                            </select>
+                        </div>
+                    </div>
+                </div><!-- //.footer -->
+            </div><!-- //.container -->
+        </div><!-- //#footer -->
+
+    </div><!-- //#wrap -->
+
+    <!-- 스크립트 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+    
+    <script>
+
+        // 플로팅 메뉴, 햄버거메뉴
+        const Nav = $(".nav_item>ul>li");
+        const cont = $(".scr1");
+
+        Nav.click(function (e) {
+            e.preventDefault();
+            let target = $(this);
+            let index = target.index();
+            let section = cont.eq(index);
+            let offset = section.offset().top;
+            $("html,body").animate({ scrollTop: offset }, 1000);
+        });
+        $(window).scroll(function () {
+            let wScroll = $(this).scrollTop();
+            console.log(wScroll)
+
+            // console.log(wScroll)
+            if (wScroll >= cont.eq(0).offset().top) {
+            };
+            if (wScroll >= cont.eq(1).offset().top) {
+            };
+        });
+
+        // 공지사항
+        const tab =$("article>section");
+        const tab1 =$("article>.list1");
+        const tab2 =$("article>.list2");
+        const tab3 =$("article>.list3");
+        const evEnt =$(".next>.event");
+        const Noti =$(".next> .noti");
+        const pageEvet=$(".notice .e1");
+        const pageEvet1=$(".notice .e2");
+        
+        tab1.click(function(){
+            $(".sl1").show();
+            $(".sl2").hide();
+            Noti.show();
+            evEnt.show();
+            $(".page_btn").show();
+            $(".page_btn2").hide();
+        });
+        tab2.click(function(){   
+            $(".notice> div").show();   
+            Noti.show();
+            evEnt.hide();
+            $(".page_btn").hide();
+            $(".page_btn2").hide();
+        });
+        tab3.click(function(){
+            $(".notice> div").show();
+            pageEvet.show();
+            pageEvet1.hide();
+            Noti.hide();
+            $(".page_btn").hide();
+            $(".page_btn2").hide();
+        });
+        // 전체보기(숫자버튼)
+        $(".page_btn li").click(function(e){
+            e.preventDefault();
+            let target =$(this);
+            let index =target.index();
+            $(".notice> div").hide().eq(index).show();
+            $(".page_btn").show();
+        })
+        // 이벤트(숫자버튼)S
+         // 텝버튼 전체보기,공지사항,이벤트
+        tab.click(function(e){
+            e.preventDefault();
+            let target =$(this);
+            let index =target.index();
+            tab.removeClass("tab");
+            target.addClass("tab");
+        });
+
+
+        
+     
+
+
+       
+    </script>
+</body>
+</html>
